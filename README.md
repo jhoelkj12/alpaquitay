@@ -34,3 +34,4 @@ assets/
 La portada usa imágenes responsivas. Las fotos del catálogo se cargan al acercarse a ellas. Exporta tus fotos en WebP, con unos 640 px para tarjetas y 1200 px para portada. Mantén proporciones similares para evitar saltos en el diseño.
 
 Puedes alojar esta carpeta directamente en cualquier hosting estático. No necesita compilación ni instalación.
+pagina web de alpaquitay 
