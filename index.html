@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#722600">
+  <meta name="description" content="ALPAQUITAY: chicharrón de alpaca y tradición familiar de Juliaca. Explora nuestro menú y consulta por WhatsApp.">
+  <title>ALPAQUITAY · Sabor de nuestra tierra</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/config.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#menu">Ir al menú</a>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#inicio" aria-label="ALPAQUITAY, inicio"><span id="brand-logo">ALPAQUITAY</span><span class="brand-caption">TRADICIÓN DE JULIACA</span></a>
+      <nav aria-label="Navegación principal"><a href="#menu">Menú</a><a href="#historia">Nuestra historia</a><a href="#ubicacion">Visítanos</a></nav>
+      <a class="button header-order" href="#menu">Ver menú</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="wrap hero-grid">
+        <div class="hero-copy"><p class="eyebrow">DE NUESTRA FAMILIA A TU MESA</p><h1>El sabor de<br>Juliaca.<br><em>La tradición<br>de casa.</em></h1><p>Chicharrón de alpaca, preparado con el cariño y la experiencia de nuestra familia.</p><a class="button" href="#menu">Descubre nuestro menú</a><div class="hero-note"><span class="seal" aria-hidden="true">20</span><span>Unos 20 años<br>compartiendo nuestra tradición</span></div></div>
+        <div class="hero-photo"><img src="assets/images/chicharron-1200.webp" srcset="assets/images/chicharron-640.webp 640w, assets/images/chicharron-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 58vw" width="1200" height="800" alt="Presentación referencial de chicharrón con papas doradas, maíz y ensalada" fetchpriority="high"><div class="photo-label"><span>EL SABOR QUE NOS UNE</span><strong>Chicharrón de alpaca</strong><small>Imagen referencial</small></div></div>
+      </div>
+    </section>
+    <div class="tradition-band"><span>RECETA FAMILIAR</span><i aria-hidden="true">✦</i><span>SABOR DE JULIACA</span><i aria-hidden="true">✦</i><span>HECHO CON CARIÑO</span></div>
+    <section class="section wrap" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading"><div><p class="eyebrow">¿QUÉ SE TE ANTOJA HOY?</p><h2 id="menu-title">Nuestro menú</h2></div><p>Elige tu plato.<br>Nosotros ponemos el sabor.</p></div>
+      <p class="sample-note">Menú de muestra · Productos y precios por confirmar.</p>
+      <div class="products" id="products"></div>
+      <noscript><p>Activa JavaScript para ver los platos y los enlaces de pedido.</p></noscript>
+      <p class="order-status" id="order-status" role="status" hidden></p>
+    </section>
+    <section class="story" id="historia" aria-labelledby="story-title"><div class="wrap story-grid"><div class="story-number"><strong>20</strong><span>AÑOS DE TRADICIÓN FAMILIAR</span></div><div><p class="eyebrow">NUESTRA HISTORIA</p><h2 id="story-title">Una receta.<br>Muchas historias.</h2><p>ALPAQUITAY nace de una tradición familiar de unos 20 años preparando y vendiendo chicharrón de alpaca en Juliaca.</p><p>La experiencia pasa de una generación a otra, junto con el cariño por nuestra cocina y la cercanía con quienes se sientan a nuestra mesa. Hoy compartimos esa tradición contigo.</p><span class="story-signature">Con cariño, la familia ALPAQUITAY.</span></div></div></section>
+    <section class="section wrap location" id="ubicacion" aria-labelledby="location-title"><div><p class="eyebrow">TE ESPERAMOS</p><h2 id="location-title">Aquí sabe a casa.</h2><p>Encuéntranos en Juliaca y comparte<br>el sabor de nuestra tradición.</p></div><div class="location-details"><div><span class="detail-label">UBICACIÓN</span><h3>Juliaca, Puno</h3><p id="address"></p></div><div><span class="detail-label">HORARIOS</span><p id="hours"></p></div><a class="button" data-whatsapp href="#contacto">Consultar por WhatsApp</a></div></section>
+  </main>
+  <footer id="contacto"><div class="wrap footer-grid"><div><a class="brand footer-brand" href="#inicio">ALPAQUITAY</a><p>Sabor de nuestra tierra. Tradición de nuestra familia.</p></div><div><span class="detail-label">CONVERSEMOS</span><a data-whatsapp href="#contacto">WhatsApp <span id="phone"></span></a><div id="social-links"></div></div></div><div class="wrap footer-bottom"><span>© <span id="year"></span> ALPAQUITAY</span><span>Juliaca · Perú</span></div></footer>
+  <a class="floating-wa" data-whatsapp href="#contacto" aria-label="Consultar por WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M27 15.5A11 11 0 0 1 10.8 25.2L5 27l1.7-5.5A11 11 0 1 1 27 15.5Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 10c-2 2 0 6 3 9s7 4 8 1l-4-2-2 1c-2-1-4-3-4-5l1-1-2-3Z" fill="currentColor"/></svg></a>
+</body>
+</html>
